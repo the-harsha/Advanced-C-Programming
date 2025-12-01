@@ -4,7 +4,6 @@ get Domain Name System information for the specified host computers.
 This example uses a delegate to obtain the results of each asynchronous
 operation.
 */
-
 using System;
 using System.Net;
 using System.Net.Sockets;
@@ -21,9 +20,7 @@ namespace Examples.AdvancedProgramming.AsynchronousOperations
         static StringCollection hostNames = new StringCollection();
         static void UpdateUserInterface()
         {
-            // Print a message to indicate that the application
-            // is still working on the remaining requests.
-            Console.WriteLine($"{requestCounter} requests remaining.");
+                Console.WriteLine($"{requestCounter} requests remaining.");
         }
         public static void Main()
         {
